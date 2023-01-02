@@ -7,7 +7,7 @@ export const buyCake = (numBuyCakes = 1) => {
   };
 };
 
-export const addCake = (numAddCakes) => {
+export const addCake = (numAddCakes = 1) => {
   return {
     type: ADD_CAKE,
     payload: Number(numAddCakes),
