@@ -5,6 +5,7 @@ import './App.css';
 import HooksCakeContainer from './components/HooksCakeContainer';
 import HooksIceCreamContainer from './components/HooksIceCreamContainer';
 import HooksItemContainer from './components/HooksItemContainer';
+import HooksUserContainer from './components/HooksUserContainer';
 import store from './redux/store';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <HooksIceCreamContainer /> */}
         <HooksItemContainer item='cake' />
         <HooksItemContainer item='iceCream' />
+        <HooksUserContainer />
       </div>
     </Provider>
   );
